@@ -9,7 +9,7 @@
     "sass": "node-sass -watch scss -o css",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "yarn build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
