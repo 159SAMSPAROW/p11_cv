@@ -1,0 +1,32 @@
+.personal__info {
+  text-align: center;
+
+  & > img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+  &_user {
+    padding: $-spacing-3 0 $-spacing-1 0;
+    text-align: start;
+    margin-left: 20%;
+    letter-spacing: 0.1rem;
+
+    & > p {
+      color: $-text-color;
+      font-size: 1.5rem;
+
+      & > svg {
+        margin-right: $-spacing-2;
+      }
+    }
+
+    & > a {
+      font-size: 1.5rem;
+    }
+    & > a > svg {
+      margin-right: $-spacing-2;
+    }
+  }
+}

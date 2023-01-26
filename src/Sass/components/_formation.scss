@@ -1,0 +1,28 @@
+.formation {
+  margin: 10rem 3rem;
+
+  & > h2 {
+    letter-spacing: $-spacing-1;
+  }
+
+  &_skills {
+    margin-top: 5rem;
+
+    & > li {
+      list-style-type: none;
+
+      & > h2 {
+        letter-spacing: 0.1rem;
+      }
+    }
+
+    &_skill {
+      margin-left: 1.2rem;
+
+      & > li{
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

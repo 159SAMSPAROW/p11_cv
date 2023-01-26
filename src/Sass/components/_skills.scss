@@ -1,0 +1,30 @@
+.skills {
+  margin-top: $-spacing-5;
+
+  & > h3 {
+    letter-spacing: $-spacing-1;
+    text-transform: uppercase;
+    margin-left: 20%;
+  }
+  & > ul {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: $-spacing-3;
+
+    & > li {
+      list-style-type: none;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+
+      & > svg {
+        margin-right: $-spacing-1;
+      }
+    }
+  }
+
+  & > p {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+}
