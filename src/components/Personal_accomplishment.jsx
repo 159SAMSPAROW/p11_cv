@@ -3,8 +3,7 @@ import { personalSkill } from '../constants';
 const Personal_accomplishment = () => {
   return (
     <div className="formation">
-      
-    <h2>Projets Customisés depuis ma Formation</h2>
+    <h2>Projets <br/> Customisés</h2>
     <ul className='formation_skills'>
       {personalSkill.map((item, index) => (
         <li key={index}>

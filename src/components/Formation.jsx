@@ -1,9 +1,11 @@
 import React from 'react'
 import { skill } from '../constants'
+import { GiSkills } from 'react-icons/gi' 
 
 const Formation = () => {
   return (
     <div className="formation">
+      
       <h2>
         Compétences acquises
         <br /> pendant ma Formation
