@@ -21,7 +21,7 @@ const Personal_info = () => {
         <br />
 
         <a href="mailto:demirsami@hotmail.fr">
-          <AiOutlineMail /> Contact par mail
+          <AiOutlineMail /> demirsami@hotmail.fr
         </a>
         <p>
           <BsCalendarEvent /> Né le : 23/10/83
